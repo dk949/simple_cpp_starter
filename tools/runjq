@@ -1,0 +1,4 @@
+#!/bin/sh
+
+___BUILDCMD="$*"
+jq -n --arg cmd "$___BUILDCMD" --arg pwd "$PWD" --arg file "$PWD/main.cpp" '[.[0]|.command=$cmd|.directory=$pwd|.file=$file]' > compile_commands.json

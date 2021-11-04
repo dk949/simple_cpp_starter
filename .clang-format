@@ -1,0 +1,10 @@
+---
+BasedOnStyle: LLVM
+IndentWidth: 4
+---
+Language: Cpp
+AccessModifierOffset: -4
+AlwaysBreakTemplateDeclarations: Yes
+MaxEmptyLinesToKeep: 3
+EmptyLineAfterAccessModifier: Leave
+...
