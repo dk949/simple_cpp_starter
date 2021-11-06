@@ -28,6 +28,7 @@
   `./build/app` or with `make run`
   - Name of the executable can be changed, see [options](#Options) below.
 - By default only `src/main.cpp` will be compiled
+- To remove all build files run `make clean`
 - Configuration options are available below
 
 ## Options
