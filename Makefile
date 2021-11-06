@@ -85,10 +85,12 @@ clean:
 
 
 $(EXE): $(FILES) $(HEADERS)
+	mkdir -p $(BUILD_DIR)
 	$(shell $(COMPILE_COMMANDS_EXE))
 	$(BUILDCMD) $(BUILDFLAGS)
 
 debug: $(FILES)
+	mkdir -p $(BUILD_DIR)
 	$(shell $(COMPILE_COMMANDS_EXE))
 	$(BUILDCMD) $(DBGFLAGS)
 
