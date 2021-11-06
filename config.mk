@@ -2,7 +2,7 @@
 LANGUAGE=c++
 
 # Version of the language
-STANDARD_VERSION=20
+STANDARD_VERSION=14
 
 # Set to any value to treat all warnings as errors
 WARNINGS_AS_ERRORS=1
