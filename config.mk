@@ -2,7 +2,7 @@
 LANGUAGE=c++
 
 # Version of the language
-STANDARD_VERSION=14
+STANDARD_VERSION=17
 
 # Set to any value to treat all warnings as errors
 WARNINGS_AS_ERRORS=1
@@ -34,7 +34,7 @@ LIBRARIES=
 
 
 # Set to 1 if you need to generate compile_commands.json (e.g. to use ccls with vim). Requires jq
-NEED_COMPILE_COMMANDS=1
+NEED_COMPILE_COMMANDS=
 
 # Leave blank to use the default compiler. Has to match the language (g++ for c++ gcc for c)
 COMPILER=
