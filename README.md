@@ -1,11 +1,11 @@
 # Simple C/C++ starter
 
 1. [Quick start](#quick-start)
-   * [Requirements](#requirements)
-   * [Compiling and running](#compiling-and-running)
+   - [Requirements](#requirements)
+   - [Compiling and running](#compiling-and-running)
 2. [Options](#options)
-   * [Initial section](#initial-section)
-   * [Advanced section](#advanced-section)
+   - [Initial section](#initial-section)
+   - [Advanced section](#advanced-section)
 
 ## Quick start
 
@@ -81,7 +81,7 @@
     - optionally followed by `=` to give the definition a value
   - All definitions which should be available in the program.
 
-- `LIBRARIES=`
+- `LIBRARIES`
 
   - Possible values: name of a library (not including `lib` or `.a`)
     - E.g. `libgit2.a` becomes `git2`
